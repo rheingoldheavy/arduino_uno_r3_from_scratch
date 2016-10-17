@@ -286,7 +286,7 @@ F 10 "N" H 5300 1200 60  0001 C CNN "Critical"
 F 11 "328P_Sub" H 5300 1200 60  0001 C CNN "Subsystem"
 F 12 "~" H 5300 1200 60  0001 C CNN "Notes"
 	1    5300 1200
-	0    -1   -1   0   
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	4900 650  4900 1050
