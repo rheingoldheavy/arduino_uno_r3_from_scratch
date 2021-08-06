@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name Arduino_Uno_R3_From_Scratch)(type Legacy)(uri ${KIPRJMOD}/Arduino_Uno_R3_From_Scratch.lib)(options "")(descr ""))
+  (lib (name MFN_Atmel)(type Legacy)(uri ${KIPRJMOD}/MFN_Atmel.lib)(options "")(descr ""))
+  (lib (name MFN_STMicro)(type Legacy)(uri ${KIPRJMOD}/MFN_STMicro.lib)(options "")(descr ""))
+)

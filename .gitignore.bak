@@ -43,8 +43,4 @@ Temporary Items
 .apdisk
 
 # KiCad Backup Files
-*.sch-bak
-
-#Files from KiCad plugins
-.log
-
+.sch-bak

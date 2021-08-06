@@ -1,45 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Arduino_Uno_R3_From_Scratch
-LIBS:MFN_Atmel
-LIBS:MFN_STMicro
-LIBS:Arduino_Uno_R3_From_Scratch-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "Arduino UNO R3 Clone"
-Date "8 oct 2015"
-Rev "0"
+Date "2021-08-06"
+Rev "1"
 Comp "Rheingold Heavy"
 Comment1 "Based on the Arduino UNO R3 From arduino.cc"
 Comment2 ""
@@ -160,7 +127,7 @@ $EndSheet
 Wire Wire Line
 	7050 2700 7550 2700
 Wire Wire Line
-	7550 2850 7050 2850
+	7550 2850 7300 2850
 Wire Wire Line
 	7050 3000 7550 3000
 Wire Wire Line
@@ -206,4 +173,6 @@ Wire Wire Line
 Wire Wire Line
 	7300 1750 7300 2850
 Connection ~ 7300 2850
+Wire Wire Line
+	7300 2850 7050 2850
 $EndSCHEMATC

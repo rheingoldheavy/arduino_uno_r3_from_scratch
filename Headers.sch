@@ -1,45 +1,12 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:Arduino_Uno_R3_From_Scratch
-LIBS:MFN_Atmel
-LIBS:MFN_STMicro
-LIBS:Arduino_Uno_R3_From_Scratch-cache
-EELAYER 25 0
+EESchema Schematic File Version 4
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 8
 Title "Arduino UNO R3 Clone"
-Date "8 oct 2015"
-Rev "0"
+Date "2021-08-06"
+Rev "1"
 Comp "Rheingold Heavy"
 Comment1 "Based on the Arduino UNO R3 From arduino.cc"
 Comment2 ""
@@ -47,68 +14,48 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_01X08 P1
-U 1 1 55E94736
-P 6250 2375
-F 0 "P1" H 6400 2500 60  0000 L CNN
-F 1 "Power Header" H 6400 2375 60  0000 L CNN
-F 2 "~" H 6250 2375 60  0000 C CNN
-F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 2375 60  0001 C CNN
-F 4 "Connector Header 8 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 2375 60  0001 C CNN "Characteristics"
-F 5 "Shield Header 8POS - PWR" H 6250 2375 60  0001 C CNN "Description"
-F 6 "Sullins Connector" H 6250 2375 60  0001 C CNN "MFN"
-F 7 "NPPC081KFXC-RC" H 6250 2375 60  0001 C CNN "MFP"
-F 8 "SMD" H 6250 2375 60  0001 C CNN "Package ID"
-F 9 "ANY" H 6250 2375 60  0001 C CNN "Source"
-F 10 "N" H 6250 2375 60  0001 C CNN "Critical"
-F 11 "Shield_Headers" H 6250 2375 60  0001 C CNN "Subsystem"
-F 12 "~" H 6250 2375 60  0001 C CNN "Notes"
-	1    6250 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_01X10 P3
+L Connector_Generic:Conn_01x10 P3
 U 1 1 55E9474B
-P 6250 4375
-F 0 "P3" H 6450 4250 60  0000 C CNN
-F 1 "Digital Header 02" H 6400 4375 60  0000 L CNN
-F 2 "~" H 6250 4375 60  0000 C CNN
-F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 4375 60  0001 C CNN
-F 4 "Connector Header 10 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 4375 60  0001 C CNN "Characteristics"
-F 5 "Shield Header 10POS - DIG02" H 6250 4375 60  0001 C CNN "Description"
-F 6 "Sullins Connector" H 6250 4375 60  0001 C CNN "MFN"
-F 7 "NPPC101KFXC-RC" H 6250 4375 60  0001 C CNN "MFP"
-F 8 "SMD" H 6250 4375 60  0001 C CNN "Package ID"
-F 9 "ANY" H 6250 4375 60  0001 C CNN "Source"
-F 10 "N" H 6250 4375 60  0001 C CNN "Critical"
-F 11 "Shield_Headers" H 6250 4375 60  0001 C CNN "Subsystem"
-F 12 "~" H 6250 4375 60  0001 C CNN "Notes"
-	1    6250 4375
+P 6250 4425
+F 0 "P3" H 6450 4300 60  0000 C CNN
+F 1 "Digital Header 02" H 6400 4425 60  0000 L CNN
+F 2 "~" H 6250 4425 60  0000 C CNN
+F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 4425 60  0001 C CNN
+F 4 "Connector Header 10 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 4425 60  0001 C CNN "Characteristics"
+F 5 "Shield Header 10POS - DIG02" H 6250 4425 60  0001 C CNN "Description"
+F 6 "Sullins Connector" H 6250 4425 60  0001 C CNN "MFN"
+F 7 "SMD" H 6250 4425 60  0001 C CNN "Package ID"
+F 8 "ANY" H 6250 4425 60  0001 C CNN "Source"
+F 9 "N" H 6250 4425 60  0001 C CNN "Critical"
+F 10 "Shield_Headers" H 6250 4425 60  0001 C CNN "Subsystem"
+F 11 "~" H 6250 4425 60  0001 C CNN "Notes"
+F 12 "NPPC101KFXC-RC" H 6250 4425 50  0001 C CNN "MPN"
+	1    6250 4425
 	1    0    0    1   
 $EndComp
 $Comp
-L CONN_01X06 P2
+L Connector_Generic:Conn_01x06 P2
 U 1 1 55E94764
-P 6250 3325
-F 0 "P2" H 6400 3200 60  0000 L CNN
-F 1 "Analog Header" H 6400 3325 60  0000 L CNN
-F 2 "~" H 6250 3325 60  0000 C CNN
-F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 3325 60  0001 C CNN
-F 4 "Connector Header 6 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 3325 60  0001 C CNN "Characteristics"
-F 5 "Shield Header 6POS - ANLG" H 6250 3325 60  0001 C CNN "Description"
-F 6 "Sullins Connector" H 6250 3325 60  0001 C CNN "MFN"
-F 7 "NPPC061KFXC-RC" H 6250 3325 60  0001 C CNN "MFP"
-F 8 "SMD" H 6250 3325 60  0001 C CNN "Package ID"
-F 9 "ANY" H 6250 3325 60  0001 C CNN "Source"
-F 10 "N" H 6250 3325 60  0001 C CNN "Critical"
-F 11 "Shield_Headers" H 6250 3325 60  0001 C CNN "Subsystem"
-F 12 "~" H 6250 3325 60  0001 C CNN "Notes"
-	1    6250 3325
+P 6250 3375
+F 0 "P2" H 6400 3250 60  0000 L CNN
+F 1 "Analog Header" H 6400 3375 60  0000 L CNN
+F 2 "~" H 6250 3375 60  0000 C CNN
+F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 3375 60  0001 C CNN
+F 4 "Connector Header 6 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 3375 60  0001 C CNN "Characteristics"
+F 5 "Shield Header 6POS - ANLG" H 6250 3375 60  0001 C CNN "Description"
+F 6 "Sullins Connector" H 6250 3375 60  0001 C CNN "MFN"
+F 7 "SMD" H 6250 3375 60  0001 C CNN "Package ID"
+F 8 "ANY" H 6250 3375 60  0001 C CNN "Source"
+F 9 "N" H 6250 3375 60  0001 C CNN "Critical"
+F 10 "Shield_Headers" H 6250 3375 60  0001 C CNN "Subsystem"
+F 11 "~" H 6250 3375 60  0001 C CNN "Notes"
+F 12 "NPPC061KFXC-RC" H 6250 3375 50  0001 C CNN "MPN"
+	1    6250 3375
 	1    0    0    1   
 $EndComp
 NoConn ~ 6050 2025
 $Comp
-L 5V_LDO #PWR035
+L Arduino_Uno_R3_From_Scratch:5V_LDO #PWR035
 U 1 1 55E95D7A
 P 5700 1875
 F 0 "#PWR035" H 5700 1965 20  0001 C CNN
@@ -119,9 +66,11 @@ F 3 "~" H 5700 1875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 3V3_LDO #PWR036
+L Arduino_Uno_R3_From_Scratch:3V3_LDO #PWR036
 U 1 1 55E95D89
 P 5400 1875
+AR Path="/55E95D89" Ref="#PWR036"  Part="1" 
+AR Path="/55E94587/55E95D89" Ref="#PWR036"  Part="1" 
 F 0 "#PWR036" H 5400 1835 30  0001 C CNN
 F 1 "3V3_LDO" H 5400 1995 30  0000 C CNN
 F 2 "~" H 5400 1875 60  0000 C CNN
@@ -130,7 +79,7 @@ F 3 "~" H 5400 1875 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Vin #PWR037
+L Arduino_Uno_R3_From_Scratch:Vin #PWR037
 U 1 1 55E95DA2
 P 5100 1875
 F 0 "#PWR037" H 5100 1965 20  0001 C CNN
@@ -145,7 +94,7 @@ Text HLabel 4700 2225 0    40   Input ~ 0
 Wire Wire Line
 	6050 2225 4700 2225
 $Comp
-L GND #PWR038
+L power:GND #PWR038
 U 1 1 55E9684A
 P 5700 2875
 F 0 "#PWR038" H 5700 2875 30  0001 C CNN
@@ -161,14 +110,14 @@ $EndComp
 Wire Wire Line
 	6050 2625 5700 2625
 Wire Wire Line
-	5700 2525 5700 2875
+	5700 2525 5700 2625
 Wire Wire Line
 	6050 2525 5700 2525
 Connection ~ 5700 2625
 Wire Wire Line
 	6050 2125 5700 2125
 Wire Wire Line
-	5700 1875 5700 2425
+	5700 1875 5700 2125
 Wire Wire Line
 	5700 2425 6050 2425
 Connection ~ 5700 2125
@@ -185,9 +134,9 @@ ARD_AN5/SCL
 Text HLabel 4775 4025 0    40   Input ~ 0
 ARD_AN4/SDA
 Wire Wire Line
-	4775 3925 6050 3925
+	4775 3925 5425 3925
 Wire Wire Line
-	4775 4025 6050 4025
+	4775 4025 5325 4025
 Text HLabel 4775 4125 0    40   Input ~ 0
 AREF
 Wire Wire Line
@@ -279,27 +228,27 @@ Wire Wire Line
 Wire Wire Line
 	4775 5875 6050 5875
 $Comp
-L CONN_01X08 P4
+L Connector_Generic:Conn_01x08 P4
 U 1 1 5615BF57
-P 6250 5525
-F 0 "P4" H 6400 5650 60  0000 L CNN
-F 1 "Digital Header 01" H 6400 5525 60  0000 L CNN
-F 2 "~" H 6250 5525 60  0000 C CNN
-F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 5525 60  0001 C CNN
-F 4 "Connector Header 8 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 5525 60  0001 C CNN "Characteristics"
-F 5 "Shield Header 8POS - DIG01" H 6250 5525 60  0001 C CNN "Description"
-F 6 "Sullins Connector" H 6250 5525 60  0001 C CNN "MFN"
-F 7 "NPPC081KFXC-RC" H 6250 5525 60  0001 C CNN "MFP"
-F 8 "SMD" H 6250 5525 60  0001 C CNN "Package ID"
-F 9 "ANY" H 6250 5525 60  0001 C CNN "Source"
-F 10 "N" H 6250 5525 60  0001 C CNN "Critical"
-F 11 "Shield_Headers" H 6250 5525 60  0001 C CNN "Subsystem"
-F 12 "~" H 6250 5525 60  0001 C CNN "Notes"
-	1    6250 5525
+P 6250 5475
+F 0 "P4" H 6400 5600 60  0000 L CNN
+F 1 "Digital Header 01" H 6400 5475 60  0000 L CNN
+F 2 "~" H 6250 5475 60  0000 C CNN
+F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 5475 60  0001 C CNN
+F 4 "Connector Header 8 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 5475 60  0001 C CNN "Characteristics"
+F 5 "Shield Header 8POS - DIG01" H 6250 5475 60  0001 C CNN "Description"
+F 6 "Sullins Connector" H 6250 5475 60  0001 C CNN "MFN"
+F 7 "SMD" H 6250 5475 60  0001 C CNN "Package ID"
+F 8 "ANY" H 6250 5475 60  0001 C CNN "Source"
+F 9 "N" H 6250 5475 60  0001 C CNN "Critical"
+F 10 "Shield_Headers" H 6250 5475 60  0001 C CNN "Subsystem"
+F 11 "~" H 6250 5475 60  0001 C CNN "Notes"
+F 12 "NPPC081KFXC-RC" H 6250 5475 50  0001 C CNN "MPN"
+	1    6250 5475
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR039
+L power:GND #PWR039
 U 1 1 56206FF2
 P 5700 4975
 F 0 "#PWR039" H 5700 4975 30  0001 C CNN
@@ -310,6 +259,34 @@ F 4 "ANY" H 5700 4975 60  0001 C CNN "Source"
 F 5 "N" H 5700 4975 60  0001 C CNN "Critical"
 F 6 "~" H 5700 4975 60  0001 C CNN "Notes"
 	1    5700 4975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 2625 5700 2875
+Wire Wire Line
+	5700 2125 5700 2425
+Wire Wire Line
+	5425 3925 6050 3925
+Wire Wire Line
+	5325 4025 6050 4025
+$Comp
+L Connector_Generic:Conn_01x08 P1
+U 1 1 55E94736
+P 6250 2325
+F 0 "P1" H 6400 2450 60  0000 L CNN
+F 1 "Power Header" H 6400 2325 60  0000 L CNN
+F 2 "~" H 6250 2325 60  0000 C CNN
+F 3 "http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf" H 6250 2325 60  0001 C CNN
+F 4 "Connector Header 8 Position 0.100\" (2.54mm) Gold Surface Mount" H 6250 2325 60  0001 C CNN "Characteristics"
+F 5 "Shield Header 8POS - PWR" H 6250 2325 60  0001 C CNN "Description"
+F 6 "Sullins Connector" H 6250 2325 60  0001 C CNN "MFN"
+F 7 "SMD" H 6250 2325 60  0001 C CNN "Package ID"
+F 8 "ANY" H 6250 2325 60  0001 C CNN "Source"
+F 9 "N" H 6250 2325 60  0001 C CNN "Critical"
+F 10 "Shield_Headers" H 6250 2325 60  0001 C CNN "Subsystem"
+F 11 "~" H 6250 2325 60  0001 C CNN "Notes"
+F 12 "NPPC081KFXC-RC" H 6250 2325 50  0001 C CNN "MPN"
+	1    6250 2325
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
